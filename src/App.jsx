@@ -5,9 +5,9 @@ import { NotFound } from "./components/NotFound";
 import { Contact } from "./components/Contact";
 import { Navbar } from "./components/Navbar";
 
-export  const App = () => {
+export default function App() {
   return (
-    <>
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -15,6 +15,6 @@ export  const App = () => {
         <Route path="/contacto" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </>
+    </BrowserRouter>
   );
 }
