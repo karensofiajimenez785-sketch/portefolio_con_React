@@ -1,0 +1,12 @@
+
+export const Navbar = () => {
+  return (
+    <nav className="navbar">
+      <NavLink to= "/" className= "nav-link">Inicio</NavLink>
+       <NavLink to= "/projects" className= "nav-link">Proyectos</NavLink>
+        <NavLink to= "/contacto" className= "nav-link">Contacto</NavLink>
+        
+    </nav>
+
+  )
+}
