@@ -1,5 +1,5 @@
 
-export const Screen = () => {
+export const Screen = (title, children) => {
   return (
     <div>
         <main className="screen">
