@@ -1,4 +1,4 @@
-import {Sreen} from "./Sreen"
+import {Screen} from "./Screen"
 import { ProjectCard } from "ProjectCard";
 
 const projects = [
