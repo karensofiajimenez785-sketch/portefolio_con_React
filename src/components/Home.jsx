@@ -12,7 +12,7 @@ export const Home = () => {
                 Mi primer portafolio en React con jsx.
             </p>
         </section>
-         </Screen>
+    </Screen>
 
 )
 }
