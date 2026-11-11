@@ -3,7 +3,7 @@ import { Screen } from "./Screen"
 export const Home = () => {
     const name = "Karen SJC"
     const role = "Aprendiz"
-  return (
+return (
     <Screen title="Sofi">
         <section className= "hero">
             <div className="avatar">ER</div>

@@ -22,10 +22,10 @@ const projects = [
     },
 ]
 export const Projects = () => {
-  return (
+return (
     <Screen title ="Mis proyectos">
 <div className="card-list">
-   {projects.map(projects =>(
+{projects.map(projects =>(
     <ProjectCard
     key ={projects.id}
     title= {projects.title}

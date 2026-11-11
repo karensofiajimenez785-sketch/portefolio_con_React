@@ -11,7 +11,7 @@ export const Contact = () => {
             </li>
             <li>
             <a className="contact-link" href="http://github.com">
-            GitHub: karensofiajimenez785-sketch
+            GitHub: karensofiajimenez785
             </a>
             </li>
         </ul>
