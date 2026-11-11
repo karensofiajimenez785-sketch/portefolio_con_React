@@ -1,5 +1,5 @@
 
-export const ProjectCard = (title, descrption, tags= []) => {
+export const ProjectCard = ({title, descrption, tags= []}) => {
   return (
 <article className="card">
     <h2>{title}</h2>

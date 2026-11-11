@@ -4,9 +4,9 @@ export const Home = () => {
     const name = "Karen SJC"
     const role = "Aprendiz"
 return (
-    <Screen title="Sofi">
+    <Screen title="Inicio">
         <section className= "hero">
-            <div className="avatar">ER</div>
+            <div className="avatar">Karen SJC</div>
             <p className="hero-role">{role}</p>
             <p>
                 Mi primer portafolio en React con jsx.
