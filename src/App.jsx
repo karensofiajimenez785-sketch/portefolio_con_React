@@ -7,7 +7,7 @@ import { Navbar } from "./components/Navbar";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -15,6 +15,6 @@ export default function App() {
         <Route path="/contacto" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </BrowserRouter>
+    </>
   );
 }
